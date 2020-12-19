@@ -2,14 +2,31 @@
 <html lang="en">
 
 <head>
-    <title>Search</title>
+    <title>Advance Search</title>
+    <link rel="stylesheet" href="advance.css">
 </head>
 
 <body>
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="images.html">Images</a></li>
+                <li><a href="#">Advance Search</a></li>
+            </ul>
+            <a href="https://google.com/"><img class="google-icon" src="images/google-icon.png" alt="google-icon"></a>
+        </nav>
+    </header>
     <section class="main-section">
+        <h2>Advance Search</h2>
         <div class="container">
             <form action="https://google.com/search">
-                <input type="text" name="q">
+                <input type="text" name="as_q">
+                <input type="text" name="as_epq">
+                <input type="text" name="as_oq">
+                <input type="text" name="as_eq">
+                <input type="text" name="as_nlo">
+                <input type="text" name="as_nhi">
                 <input type="submit" value="Google Search">
             </form>
         </div>

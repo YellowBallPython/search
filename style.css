@@ -1,0 +1,71 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=text]:focus {
+    outline: none;
+    padding: 10px;
+}
+
+
+
+li {
+    padding: 0 15px;
+    list-style-type: none;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.nav-links  {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px;
+    float: right;
+    padding-right: 50px;
+}
+
+
+
+.logo {
+    width: 250px;
+    margin-left: 128px;
+    padding-top: 100px;
+}
+
+.card {
+
+    margin: 20px auto;
+    width: 500px;
+}
+
+#search-bar {
+    width: 100%;
+    border: 1px solid rgba(57, 57, 57, 0.3);
+    border-radius: 20px;
+    height: 35px;
+    margin-bottom: 10px;
+
+}
+
+#photo-circle {
+    background-color: royalblue;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+}
+
+#search-btn {
+    background-color: #F8F9FA;
+    border: 1px solid rgba(61, 61, 61, 0);
+    border-radius: 3px ;
+    width: 130px;
+    height: 35px;
+}

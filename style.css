@@ -88,9 +88,14 @@ input[type=submit] {
     width: 125px;
     margin-top: 10px;
     border: 1px solid rgba(0, 0, 0, 0);
+    outline: none;
 }
 
 input[type=submit]:hover {
     border: 1px solid rgba(39, 39, 39, 0.2);
     box-shadow: .5px .5px 1px 1px rgba(0, 0, 0, 0.027); 
+}
+
+input[type=submit]:focus {
+    outline: none;
 }

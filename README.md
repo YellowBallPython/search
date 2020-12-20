@@ -1,4 +1,11 @@
-Proyecto para CS50 Web programming with Python and Javascript.
+<h3>Primer proyecto para el curso CS50’s Web Programming with Python and JavaScript.</h3>
 
 
-El proyecto cuenta de 3 templates y 2 archivos de estilo: style.css to index.html, images.html. advance.css to advance_search.html.
+El proyecto consistía en conseguir una réplica de la página principal de Google y que además de tener el mismo estilo,
+cumplir con una seria de funcionalidades. Para conocer los requerimentos click en [+info](https://cs50.harvard.edu/web/2020/projects/0/search/ "Harvard University"). 
+
+Esta es la página principal:
+![index_view](https://user-images.githubusercontent.com/71573508/102703571-16049b80-4236-11eb-82a2-b6104bc017d3.PNG "Página principal")
+
+Esta es la página de búsqueda avanzada:
+![advance_view](https://user-images.githubusercontent.com/71573508/102703652-3da83380-4237-11eb-8fa0-98a4c38d1456.PNG "Búsqueda avanzada")
